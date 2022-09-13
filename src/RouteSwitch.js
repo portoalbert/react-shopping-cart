@@ -22,12 +22,12 @@ const RouteSwitch = () => {
     }
   }
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/react-shopping-cart">
       <Navbar items={shoppingCartList.length} />
       <Routes>
         <Route
           className="main"
-          path="/"
+          path="/react-shopping-cart"
           element={
             <div className="main">
               {productList.map((product, id) => (
