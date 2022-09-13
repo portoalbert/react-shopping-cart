@@ -22,7 +22,7 @@ const RouteSwitch = () => {
     }
   }
   return (
-    <BrowserRouter basename="/shopping">
+    <BrowserRouter basename="/">
       <Navbar items={shoppingCartList.length} />
       <Routes>
         <Route
